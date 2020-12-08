@@ -1,0 +1,420 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Facebook';
+    src: url('../font/klavika-bold.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3B5998;
+    height: 15vh;
+}
+
+h1 {
+    font-family: 'Facebook', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: 40px;
+    
+}
+
+.login-form > form {
+    float: right;
+    color: white;
+    font-size: 13px;
+    letter-spacing: -.5px;
+}
+
+.login-user {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+
+.login-user label[for="username"] {
+    position: relative;
+    top: 2px;
+}
+
+.login-user label[for="keepmeloggedin"]{
+    color: rgba(255, 255, 255, 0.507);
+}
+
+.login-user input[name="username"] {
+    position: relative;
+    top: 4px;
+}
+
+.login-user input[type="checkbox"], .login-user label[for="keepmeloggedin"] {
+    position: relative;
+    top: 6px;
+}
+
+.login-password {
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+    position: relative;
+    top: 20px;
+}
+
+.login-password a {
+    color: rgba(255, 255, 255, 0.507);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    
+
+input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+}
+
+input[type=submit] {
+    background-color: #627AAD;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(71, 99, 160);
+}
+
+input[type=submit]:focus {
+    outline: none;
+}
+
+/*
+fronteira entre o HEADER e o MAIN
+*/
+
+main {
+    background-color: #E8EBF2;
+    width: 100%;
+    height: 100%;
+}
+
+.left-aside {
+    float: left;
+    position: relative;
+    top: 70px;
+}
+
+.text-left {
+    font-weight: bold;
+    color: #103860;
+    font-size: 20px;
+    width: 450px;
+}
+
+.network {
+    position: relative;
+    top: 30px;
+}
+.network img {
+    width: 450px;
+}
+
+.sign-up-form {
+    width: 450px;
+    height: 600px;
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+.sign-up-form a {
+    color: #8698C2;
+    text-decoration: none;
+}
+
+.signupheader h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 535;
+    margin: 10px 0;
+}
+
+.signupheader p {
+    margin-bottom: 10px;
+    letter-spacing: .5px;
+}
+
+.user-input form input[type="text"], .user-input form input[type="email"], .user-input form input[type="password"]{
+    margin: 5px 0;
+    padding: 10px;
+    height: 35px;
+    border: 1px solid #C8D1DE;
+    border-radius: 4px;
+}
+
+form > input[type="email"], form > input[type="password"] {
+    display: block;
+    width: 440px;
+}
+
+.user-input > form input[type="text"] {
+    width: 218px;
+}
+
+form > label {
+    color: black;
+}
+
+form > label[for="dob"] {
+    color: black;
+    display: block;
+}
+
+select {
+    padding: 5px;
+    font-size: 15px;
+}
+
+input[type="number"] {
+    width: 96px;
+    height: 10px;
+    border: 1px solid #4F4F4F;
+    border-radius: 2px;
+    padding: 15px 5px;
+    font-size: 15px;
+}
+
+select {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.dob-policy {
+    float: right;
+    width: 160px;
+    position: relative;
+    top: -35px;
+}
+
+.dob-policy a {
+    font-size: 12px;
+}
+
+input[name=gender] {
+    margin-top: 10px;
+}
+
+input[id="male"] {
+    margin-left: 15px; 
+}
+
+.user-input form label[for="dob"] {
+    margin: 10px 0;
+}
+
+.signupfooter {
+    width: 290px;
+}
+
+.signupfooter > p {
+    color: #78788A;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+
+.signupfooter input {
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    margin: 20px 0;
+    width: 170px;
+    height: 35px;
+    background-color: #619F4E;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+}
+
+.signupfooter input:hover {
+    background-color: #598d49;
+}
+
+.signupfooter input:active {
+    border-left: 2px solid black ;
+    border-top: 2px solid black;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.footer-line {
+    border: 1px solid #9B9B9B;
+    margin-bottom: 20px;
+}
+
+footer a {
+    font-weight: bold;
+    color: #3B6BAE;
+}
+
+footer a:visited {
+    font-weight: bold;
+    color: #3B6BAE;
+}
+
+footer p {
+    font-weight: bold;
+    color: #706675;
+}
+
+@media screen and (max-width: 952px) {
+    
+    .network img {
+        display: none;
+    }
+
+    .left-aside {
+        float: left;
+        position: relative;
+        top: 30px;
+        left: 20px;
+    }
+
+    .text-left {
+        font-weight: bold;
+        color: #103860;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    h1 {
+        font-family: 'Facebook', Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 1.5em;
+        position: absolute;
+        top: 10px;
+        left: 30px;   
+    }
+
+    .login-form {
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    .login-form > form {
+        float: none;
+        color: white;
+        font-size: 13px;
+        letter-spacing: -.5px;
+    }
+
+@media screen and (max-width: 499px) {
+
+    header {
+        height: 205px;
+    }
+
+    .center h1 {
+        font-size: 2em;
+        position: initial;
+        top: 0;
+        left: 0;
+        padding: 15px 0;
+    }
+
+    .login-form {
+        position: initial;
+        left: 0;
+        top: 0;
+    }
+    
+    form > .login-user {
+        position: initial;
+        left: 0;
+        top: 0;
+        display: block;
+    }
+
+    form .login-password {
+        display: block;
+        margin: 20px 0;
+        position: initial;
+        top: 0;
+    }
+
+    .left-aside {
+        float: none;
+        position: initial;
+        top: 0;
+        left: 0;
+        padding-top: 10px;
+        margin: 0 auto;
+    }
+
+    .text-left {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .text-left p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .sign-up-form {
+        width: 300px;
+        height: 600px;
+        margin: 20px auto 0 auto;
+        float: none;
+        position: initial;
+        top: 0;
+    }
+
+    .user-input > form input[type="text"] {
+        width: 145px;
+    }
+
+    form > input[type="email"], form > input[type="password"] {
+        display: block;
+        width: 295px;
+    }
+
+    .dob-policy {
+        float: none;
+        width: 300px;
+        position: initial;
+        top: 0;
+        margin-top: 10px;
+    }
+
+
+    .signupfooter {
+        margin-top: 10px;
+}
+}

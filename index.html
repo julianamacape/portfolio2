@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Facebook</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/fblogo.ico" type="image/x-icon">
+    <!-- https://nehasomany.files.wordpress.com/2013/02/original-fb1.png -->
+</head>
+<body>
+    <header>
+        <div class="center">
+            <h1>facebook</h1>
+            <div class="login-form">
+                <form action="">
+                    <div class="login-user">
+                        <label for="username">Email or Phone</label> <br>
+                        <input type="text" name="username" id="username"> <br>
+                        <input type="checkbox" name="keepmeloggedin" id="keepmeloggedin">
+                        <label for="keepmeloggedin">Keep me logged in</label>
+                    </div>
+                    <div class="login-password">
+                        <label for="password">Password</label> <br>
+                        <input type="password" name="password" id="password">
+                        <input type="submit" value="Log in"> <br>
+                        <a href="#">Forgotten your password?</a>
+                    </div>
+                </form>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="center">
+            <div class="left-aside">
+                <div class="text-left">
+                    <p>
+                        Facebook helps you connect and share with the people in your life.
+                    </p>
+                </div>
+                <div class="network">
+                    <img src="images/network.png" alt="people network">
+                </div>
+            </div>
+            <div class="sign-up-form">
+                <div class="signupheader">
+                    <h2>Sign Up</h2>
+                    <p>It's free and always will be.</p>
+                </div>
+                <div class="user-input">
+                    <form action="">
+                        <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                        <input type="text" name="surname" id="surname" placeholder="Surname" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <input type="email" name="remail" id="remail" placeholder="Re-enter  Email" required>
+                        <input type="password" name="password" id="password" placeholder="New Password" required>
+                        <label for="dob">Birthday: </label>
+                        <div class="dob-input">
+                            <div class="dob-info">
+                                <select name="dob" id="dob" required>
+                                    <option value="day">Day: </option>
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <select name="month" id="month" required>
+                                    <option value="month">Month:</option>
+                                    <option value="january">January</option>
+                                    <option value="february">February</option>
+                                    <option value="march">March</option>
+                                    <option value="april">April</option>
+                                    <option value="may">May</option>
+                                    <option value="june">June</option>
+                                    <option value="july">July</option>
+                                    <option value="august">August</option>
+                                    <option value="september">September</option>
+                                    <option value="october">October</option>
+                                    <option value="november">November</option>
+                                    <option value="december">December</option>
+                                </select>
+                                <input type="number" name="year" id="year" placeholder="Year" min="1900" pattern="[1-2]{1}[1-9]{1}[0-9]{2}" required>
+                            </div>
+                            <div class="dob-policy">
+                                <a href="#">Why do I need to provide my date of birth?</a>
+                            </div>
+                        </div>
+                        <input type="radio" name="gender" id="female" required>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="male" required>
+                        <label for="male">Male</label>
+                    </form>
+                </div>
+                <div class="clear"></div>
+                <div class="signupfooter">
+                    <p>
+                        By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data use policy</a>, including our <a href="#">Cookie Use</a>.
+                    </p>
+                    <input type="submit" value="Sign Up">
+                </div>
+                <footer>
+                    <div class="footer-line">
+            
+                    </div>
+                    <p>
+                        <a href="#">Create a page</a> for a celebrity, band or business.
+                    </p>
+                </footer>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
